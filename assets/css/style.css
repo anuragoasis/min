@@ -23,7 +23,7 @@ h2 {
   text-align: center;
   color: #fff;
   font-weight: bold;
-  overflow: hidden;
+  white-space:nowrap;
 }
 
 .mySlides {
