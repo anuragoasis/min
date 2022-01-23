@@ -60,7 +60,7 @@ body, h1, h2, h3, h4, h5, p {
     height: 100vh;
 }
 
-.container {
+.validation-box {
     background-color: #fff;
     padding: 40px;
 }
