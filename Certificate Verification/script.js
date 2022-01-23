@@ -8,14 +8,14 @@ const verifyCertificate = function () {
       if (data.includes(number)) {
         const container = document.getElementById('container');
         container.innerText = `✔️ Valid certificate | Verified`;
-        container.style.fontSize = '15vmin';
+        container.style.fontSize = '10vmin';
         console.log(container);
         document.body.appendChild(container);
       }
       else {
         const container = document.getElementById('container');
         container.innerHTML = `❌ Invalid Credentials`;
-        container.style.fontSize = '15vmin';
+        container.style.fontSize = '10vmin';
       }
     });
 
