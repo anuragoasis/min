@@ -7,7 +7,7 @@ const verifyCertificate = function () {
     .then(data => {
       if (data.includes(number)) {
         const container = document.getElementById('container');
-        container.innerText = `✔️ <br>Valid Certificate`;
+        container.innerHTML = `✔️ <br>Valid Certificate`;
         container.style.fontSize = '10vmin';
         console.log(container);
         document.body.appendChild(container);
