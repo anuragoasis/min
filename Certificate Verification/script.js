@@ -7,14 +7,14 @@ const verifyCertificate = function () {
     .then(data => {
       if (data.includes(number)) {
         const container = document.getElementById('container');
-        container.innerText = `✔️ Valid certificate | Verified`;
+        container.innerText = `✔️ <br>Valid Certificate`;
         container.style.fontSize = '10vmin';
         console.log(container);
         document.body.appendChild(container);
       }
       else {
         const container = document.getElementById('container');
-        container.innerHTML = `❌ Invalid Credentials`;
+        container.innerHTML = `❌ <br>Invalid Credentials`;
         container.style.fontSize = '10vmin';
       }
     });
