@@ -37,24 +37,6 @@ h2 {
 	text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 
-.carousel-caption p {
-  font-size: 1rem; /* Default size */
-}
-
-/* For Android devices and mobile */
-@media (max-width: 576px) {
-  .carousel-caption p {
-    font-size: 0.8rem; /* Smaller for mobile/Android */
-  }
-}
-
-/* Optional: Medium devices (tablets) */
-@media (max-width: 768px) and (min-width: 577px) {
-  .carousel-caption p {
-    font-size: 0.9rem;
-  }
-}
-
 .mySlides {
     display: none;
 }
